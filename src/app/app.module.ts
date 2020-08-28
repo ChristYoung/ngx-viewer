@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NgxViewerModule } from 'ngx-viewer';
+import { NgxViewerModule } from '../../projects/ngx-viewer/src/public_api';
 
 @NgModule({
   declarations: [
